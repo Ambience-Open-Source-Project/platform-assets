@@ -1,0 +1,10 @@
+echo -e "Initializing basic configuration."
+
+/bin/mount -a
+/bin/mount -o remount,rw /
+
+/sbin/mdev -d
+/sbin/mdev -s
+
+echo -e "Initialization complete."
+echo -e "Welcome to Ambience!"
