@@ -1,5 +1,7 @@
 echo -e "Initializing basic configuration."
 
+/opt/venlogo/venlogo
+
 /bin/mount -a
 /bin/mount -o remount,rw /
 
